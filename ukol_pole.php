@@ -4,7 +4,7 @@
     $profil['vek'] = 'Tajný';
     $profil['konicky'] = ['Tajnůstkaření', 'plavání'];
 $profil['konicky'][]='tetelení';
-    ?>
+?>
 
     <!doctype html>
 <html lang="en">
@@ -99,7 +99,7 @@ $profil['konicky'][]='tetelení';
               <tr>
                   <th scope="row">Koníčky</th>
                   <td><?php
-                      var_dump( $profil ["konicky"]);
+                      print_r( $profil ["konicky"]);
                       ?>
                   </td>
 
